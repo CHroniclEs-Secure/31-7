@@ -17,6 +17,11 @@ lbl1.setText("On reprend avec la Foi en Dieu."
              "On étudie avec beaucoup d'effort"
              "--------------------------------")
 
+# Étape 6: ajout bouton.
+btn1 = QPushButton(fen)
+btn1.setText("...Continuer...")
+btn1.setGeometry(20, 30, 200, 25)
+
 # Étape 3: Rentrer la fenetre visible
 fen.show()
 
