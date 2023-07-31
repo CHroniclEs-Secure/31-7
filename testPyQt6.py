@@ -11,8 +11,11 @@ fen.setGeometry(20, 313, 1320, 200) #location, dimention
 fen.setWindowTitle("Ma premiere Fenetre ^^,")
 
 # Étape 5: ajout du Label
-lbl1 = QLabel(fen)
-lbl1.setText("On reprend avec la Foi en Dieu.")
+lbl1 = QLabel(fen) #contenu de la fenetre
+lbl1.setText("On reprend avec la Foi en Dieu."
+             "-------------------------------"
+             "On étudie avec beaucoup d'effort"
+             "--------------------------------")
 
 # Étape 3: Rentrer la fenetre visible
 fen.show()
