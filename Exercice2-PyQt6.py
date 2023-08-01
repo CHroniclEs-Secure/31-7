@@ -91,13 +91,13 @@ btnNine.clicked.connect(Plus)
 # btnPlus
 btnPlus = QPushButton(fen)
 btnPlus.setText("Plus (+)")
-btnPlus.setGeometry(50, 50, 75, 90)
+btnPlus.setGeometry(50, 350, 75, 90)
 btnPlus.clicked.connect(Plus)
 
 # btnMoins
 btnMoins = QPushButton(fen)
 btnMoins.setText("Moins (-)")
-btnMoins.setGeometry(150, 50, 75, 90)
+btnMoins.setGeometry(350, 350, 75, 90) #x, y
 btnMoins.clicked.connect(Moins)
 
 fen.show()
