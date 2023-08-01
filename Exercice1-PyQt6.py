@@ -34,7 +34,7 @@ btnPlus.clicked.connect(Plus)
 
 # btnMoins
 btnMoins = QPushButton(fen)
-btnMoins.setText("Plus (+)")
+btnMoins.setText("Moins (-)")
 btnMoins.setGeometry(150, 50, 75, 90)
 btnMoins.clicked.connect(Moins)
 
