@@ -31,7 +31,7 @@ lblNum.setGeometry(135, 20, 75, 40)
 #btnZero
 btnZero = QPushButton(fen)
 btnZero.setText("0")
-btnZero.setGeometry(50, 50, 75, 90)
+btnZero.setGeometry(200, 350, 75, 90)
 btnZero.clicked.connect(Plus)
 
 #btnOne
