@@ -26,7 +26,7 @@ fen.setGeometry(250, 130, 500, 500)
 # QLabel
 lblNum = QLabel(fen)
 lblNum.setText("0")
-lblNum.setGeometry(135, 20, 75, 40)
+lblNum.setGeometry(233, 20, 75, 40)
 
 #btnZero
 btnZero = QPushButton(fen)
