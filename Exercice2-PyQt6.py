@@ -43,31 +43,31 @@ btnOne.clicked.connect(Plus)
 #btnTwo
 btnTwo = QPushButton(fen)
 btnTwo.setText("2")
-btnTwo.setGeometry(50, 50, 75, 90)
+btnTwo.setGeometry(200, 50, 75, 90)
 btnTwo.clicked.connect(Plus)
 
 #btnThree
 btnThree = QPushButton(fen)
 btnThree.setText("3")
-btnThree.setGeometry(50, 50, 75, 90)
+btnThree.setGeometry(350, 50, 75, 90)
 btnThree.clicked.connect(Plus)
 
 #btnFour
 btnFour = QPushButton(fen)
 btnFour.setText("4")
-btnFour.setGeometry(50, 50, 75, 90)
+btnFour.setGeometry(50, 150, 75, 90)
 btnFour.clicked.connect(Plus)
 
 #btnFive
 btnFive = QPushButton(fen)
 btnFive.setText("5")
-btnFive.setGeometry(50, 50, 75, 90)
+btnFive.setGeometry(200, 150, 75, 90)
 btnFive.clicked.connect(Plus)
 
 #btnSix
 btnSix = QPushButton(fen)
 btnSix.setText("6")
-btnSix.setGeometry(50, 50, 75, 90)
+btnSix.setGeometry(350, 150, 75, 90)
 btnSix.clicked.connect(Plus)
 
 #btnSeven
